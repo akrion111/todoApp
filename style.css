@@ -1,0 +1,124 @@
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.col-sm-3
+{
+	border:5px solid #80d1fc;
+	margin:5px;
+	background-color: #80d1fc;
+}
+
+.col-sm-4
+{
+	border:5px solid #24cca2;
+	margin:5px;
+}
+
+.col-sm
+{
+	border:5px solid #24a2cc;
+	margin:5px;
+}
+
+.col-sm-2
+{
+	border:5px solid #35a1ba;
+	margin:5px;
+
+}
+.col-sm-1
+{
+	border:2px solid #35a1ba;
+	margin:2px;
+	text-align: center
+
+}
+
+#actions_label{
+	background-color: white;
+}
+
+#new_task{
+	text-align: center
+}
+
+#task{
+	border:none;
+}
+
+#done{
+	border:none;
+}
+
+#title
+{
+	text-align: center;
+}
+
+#days_label
+{
+	max-height:40px;
+}
+
+#show-hide{
+	display:'none';
+	height: 200px
+}
+
+.list-group{
+
+}
+
+.btn-group{
+	margin-right:10px;
+	margin-top:12px;
+	margin-bottom:10px;
+	display: flex;
+}
+
+.btn-secondary{
+background-color: #8093fc;
+}
+
+.container{
+	border: 5px solid #8093fc;
+}
+
+
+#task_label{
+	text-align: center;
+}
+
+.btn-sm
+{
+	margin-top:7px;
+	margin-bottom:10px;
+}
+
+#done_label{
+	text-align: center;
+}
+
+#actions_label{
+	text-align: center;
+}
+
+#new_task
+{
+	border:none;
+}
+
+.btn-outline-primary
+{
+	width:600px;
+}
+#delete{
+	border:none;
+}
+
+#edit{
+	border:none;
+}
