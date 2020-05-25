@@ -21,13 +21,37 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-sm-3" id="days_label">
-          Days:
+        <div class="col-sm" id="new_task_label">
+        <button type="button" class="btn btn-primary" onclick="addNew()">Add new Task! eloooooooooooooooo</button>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm" id="new_task">
-        <button type="button" class="btn btn-outline-primary" onclick='addNew()'>----- ----- -----  Add new task!  ------ ----- -----</button>
-        <div class="col-sm" id="show-hide">
+        <form id="task_form">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Task description:</label>
+    <textarea class="form-control" id="task_description" name="description" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Date:</label>
+            <input type="date" class="form-control" name="date" id="date">
+          </div>
+          Task status:
+        </br>
+          <div class="form-check">
+          <input class="form-check-input" type="radio" name="done" id="done_radio" value="true" checked>
+          <label class="form-check-label" for="gridRadios1">
+            done
+          </label>
         </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="done" id="todo_radio" value="false">
+          <label class="form-check-label" for="gridRadios2">
+            to do
+          </label>
+        </div>
+          <button type="button" class="btn btn-primary" onclick='submitNewTask()'>Submit</button>
+        </form>
         </div>
       </div>
 
